@@ -1,0 +1,31 @@
+{
+    "name": "freshtheme",
+    "displayName": "freshtheme",
+    "description": "Color theme that resembeles fresh denos color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theabhayprajapati/fresh-theme.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "start": "vsce package"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fresh theme",
+                "uiTheme": "vs",
+                "path": "./themes/Fresh theme-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^2.9.2"
+    }
+}
